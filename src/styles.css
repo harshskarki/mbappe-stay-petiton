@@ -63,13 +63,13 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(0.13 0.04 25);
+  --background: oklch(0.13 0.04 150);
   --foreground: oklch(0.98 0 0);
-  --brand-red: oklch(0.62 0.24 25);
-  --brand-red-glow: oklch(0.7 0.28 25);
-  --gradient-bg: radial-gradient(ellipse at top, oklch(0.25 0.15 25) 0%, oklch(0.08 0.03 25) 60%);
+  --brand-red: oklch(0.62 0.18 150);
+  --brand-red-glow: oklch(0.78 0.2 150);
+  --gradient-bg: radial-gradient(ellipse at top, oklch(0.28 0.12 150) 0%, oklch(0.08 0.03 150) 60%);
   --gradient-red: linear-gradient(135deg, var(--brand-red), var(--brand-red-glow));
-  --shadow-red: 0 10px 40px -10px oklch(0.62 0.24 25 / 0.5);
+  --shadow-red: 0 10px 40px -10px oklch(0.62 0.2 150 / 0.5);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
