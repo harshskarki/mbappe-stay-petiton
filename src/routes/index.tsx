@@ -1,21 +1,21 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import fueraStamp from "@/assets/fuera-stamp.jpg";
+import stayStamp from "@/assets/stay-stamp.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "MbappeOUT — Sign the Petition" },
-      { name: "description", content: "Madridistas, make your voice heard. Sign the petition." },
-      { property: "og:title", content: "MbappeOUT — Sign the Petition" },
-      { property: "og:description", content: "Madridistas, make your voice heard." },
+      { title: "MbappeSTAY — Sign the Petition" },
+      { name: "description", content: "Madridistas who believe. Sign the petition to keep Mbappé at Real Madrid." },
+      { property: "og:title", content: "MbappeSTAY — Sign the Petition" },
+      { property: "og:description", content: "Stand with Kylian. Hala Madrid." },
     ],
   }),
   component: Index,
 });
 
 function Index() {
-  const goal = 200000;
+  const goal = 25000000;
   const [count, setCount] = useState(19400285);
   const [signed, setSigned] = useState(false);
 
@@ -31,25 +31,25 @@ function Index() {
       <div className="h-1 w-full" style={{ background: "var(--gradient-red)" }} />
       <header className="py-8 text-center">
         <h1 className="text-sm font-bold tracking-[0.4em] text-muted-foreground">
-          MBAPPE<span style={{ color: "var(--brand-red)" }}>OUT</span>
+          MBAPPE<span style={{ color: "var(--brand-red)" }}>STAY</span>
         </h1>
       </header>
 
       <section className="mx-auto flex max-w-2xl flex-col items-center px-6 pb-20">
         <img
-          src={fueraStamp}
-          alt="FUERA stamp"
+          src={stayStamp}
+          alt="STAY stamp"
           width={768}
           height={896}
-          className="w-full max-w-md drop-shadow-[0_0_60px_rgba(220,38,38,0.4)]"
+          className="w-full max-w-md drop-shadow-[0_0_60px_rgba(34,197,94,0.45)]"
         />
 
         <blockquote
           className="mt-12 border-l-4 pl-6 text-lg italic text-muted-foreground"
           style={{ borderColor: "var(--brand-red)" }}
         >
-          Madridistas, make your voice heard. If you believe change is needed, don't stay silent —
-          sign this petition and stand for what you think is best for the club's future.
+          Madridistas, make your voice heard. If you believe Kylian is the future, don't stay
+          silent — sign this petition and stand for keeping him at the club.
         </blockquote>
 
         <div
