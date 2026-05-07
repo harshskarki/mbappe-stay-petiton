@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Mbappe Stay Petiton" },
+      { name: "description", content: "A fan page showcasing Kylian Mbappé's career, featuring player stats, news, and media." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Mbappe Stay Petiton" },
+      { property: "og:description", content: "A fan page showcasing Kylian Mbappé's career, featuring player stats, news, and media." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Mbappe Stay Petiton" },
+      { name: "twitter:description", content: "A fan page showcasing Kylian Mbappé's career, featuring player stats, news, and media." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Dz1BgcnABubHZMc80Fa2KmK6T4k2/social-images/social-1778138451341-ai-editor-new-result_(2).webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/Dz1BgcnABubHZMc80Fa2KmK6T4k2/social-images/social-1778138451341-ai-editor-new-result_(2).webp" },
     ],
     links: [
       {
