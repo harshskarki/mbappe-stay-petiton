@@ -107,7 +107,7 @@ function Index() {
         >
           HALA MADRID
         </div>
-        <div className="mt-2 text-xs text-muted-foreground">crafted with passion</div>
+        <div className="mt-2 text-xs text-muted-foreground">crafted by harshskarki</div>
       </section>
     </main>
   );
