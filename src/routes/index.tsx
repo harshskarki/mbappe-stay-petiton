@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import stayStamp from "@/assets/stay-stamp.jpg";
+import stayStamp from "@/assets/mbappe-stay.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
