@@ -1,4 +1,4 @@
-# 🐐 Mbappé Stay Petition
+# 🐐 Mbappé Stay Petition Lovable
 
 A modern fan-made petition website dedicated to showing support for keeping :contentReference[oaicite:0]{index=0} at his club.  
 Built with a clean UI, responsive design, and interactive frontend components.
